@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+:root {
+    --primary-color:#964B00;
+    --secondary-color:#7EE081;
+    --tertiary-color:#BCD3E7;
+}
+
+body {
+    text-align: center;
+    background: url("/images/groot-bg.jpg") no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Langar', cursive;
+}
+
+textarea {
+    width: 80%;
+    min-width: 200px;
+    height: 200px;
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0 auto;
+    color: var(--tertiary-color);
+    
+}
+
+h3{
+    font-size: 30px;
+    margin-block-start: 0;
+    padding-top: 1rem;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 80%;
+    min-width: 200px;
+    height: 200px;
+    overflow:scroll;
+    border: 1px solid;
+    margin: 1rem auto;
+    display: inline-block;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+#groot {
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+#groot:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.input-heading {
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+.output-heading {
+    color: var(--secondary-color);
+}
+
+footer {
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
